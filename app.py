@@ -5,7 +5,6 @@ db = DatabaseWrapper(
     host = "mysql-2866f0dc-iisgalvanimi-94a0.i.aivencloud.com",
     port = 27960,
     user = "avnadmin",
-    password = "AVNS_Gw45d55L_UtOUeZ0JSN", 
     database = "studenti"
 )
 
