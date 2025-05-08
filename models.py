@@ -1,12 +1,11 @@
 import pymysql
 
 class DatabaseWrapper: #utiliziamo il db come database
-    def __init__(self, host, port, user, password, database):
+    def __init__(self, host, port, user, database):
         self.db_config = {
             "host": host, 
             "port": port,
             "user": user,
-            "password": password,
             "database": database,
             "cursorclass": pymysql.cursors.DictCursor
         }
