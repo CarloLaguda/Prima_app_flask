@@ -6,9 +6,13 @@
     <title>Titolo</title>
 </head>
 <body>
-    <p>Ciao</p>
-    {%for i in lista%}
-    <li>{{i}}</li>
-    {%endfor%}
+    <h1>Studente</h1>
+    <form action="/aggiungi" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+        <input type="submit" value="aggiungi">
+    </form>
+    <br>
+    <a href="/studenti">Visualizza elenco</a>
 </body>
 </html>
